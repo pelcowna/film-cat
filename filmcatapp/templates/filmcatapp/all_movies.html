@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <p>Here are all of the movies that you saw together (obydwojgoro), separately (Julka or Piotrek) or none of you have seen it. Just all the movies that you've added here. Latest at the top.<br>
+    In total: <b>{{movies|length}}</b>
+  </p>
+
+  <table id="movie_table">
+    <tr>
+      <th>Title</th>
+      <th>Year relased</th>
+      <th>Date seen</th>
+      <th>Who saw it?</th>
+    </tr>
+    {% for movie in movies %}
+
+    <tr>
+      <td>{{ movie.title }}</td>
+      <td>{{ movie.release_year }}</td>
+      {% if movie.date_seen is None %}
+      <td>-</td>
+      {% else %}
+      <td>{{ movie.date_seen }}</td>
+      {% endif %}
+      <td>{{ movie.get_seen_by_display }}</td>
+    {% endfor %}
+    </tr>
+  </table>
+
+{% endblock %}

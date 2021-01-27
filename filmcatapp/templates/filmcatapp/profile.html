@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %} {{ user.username }}'s profile {% endblock %}
+
+{% block content %}
+  <div class="container">
+    <br>
+    <h3>Logged in as {{ user.username }}</h3>
+    <br>
+  </div>
+  <br>
+
+{% endblock %}

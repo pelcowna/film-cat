@@ -1,0 +1,18 @@
+body {
+    background-color: #494343;
+}
+
+#filmcatlogo {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia;
+}
+
+#content {
+    background-color: Snow;
+}
+
+#movie_table {
+    width: 100%;
+    text-align: center;
+}

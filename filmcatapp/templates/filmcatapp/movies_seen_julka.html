@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <p>Here are all of the movies that Julka saw, but probably Piotrek would love to see them as well. Right? <br>
+    In total: <b>{{movies_seen|length}}</b>
+  </p>
+
+  <table id="movie_table">
+    <tr>
+      <th>Title</th>
+      <th>Year released</th>
+    </tr>
+    {% for movie in movies_seen %}
+    <tr>
+      <td>{{ movie.title }}</td>
+      <td>{{ movie.release_year }}</td>
+    {% endfor %}
+    </tr>
+  </table>
+{% endblock %}

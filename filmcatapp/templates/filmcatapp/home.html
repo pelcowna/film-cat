@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h3>Expect movie catalog here! </h3>
+
+  {% for movie in movies %}
+  <p>{{ movie }}</p>
+  {% endfor %}
+
+
+{% endblock %}
