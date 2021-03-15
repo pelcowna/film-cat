@@ -3,14 +3,52 @@
 {% block content %}
 
 Here you'll be able to add new movie to our database!
-<br><br><br>
+<br><br>
 
 <form method="post">
   {%csrf_token %}
-  Title: {{form.title}} <br><br>
-  Release year: {{form.release_year}} <br><br>
-  Seen by: {{form.seen_by}} <br><br>
-  Date seen: {{form.date_seen}}  <br><br>
+
+  <div class="form-group">
+    <p>Title</p>
+    {{ form.title }}
+  </div>
+
+  <div class="form-group">
+    <div class="row">
+      <div class="col-4">
+        <p>Release year:</p>
+        {{ form.release_year }}
+      </div>
+      <div class="col-6">
+        <p>Director</p>
+        {{ form.director }}
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="row">
+      <div class="col-3">
+        <p>Seen by</p>
+        {{ form.seen_by }}
+      </div>
+      <div class="col">
+        <p>Date seen: </p>
+        {{ form.date_seen }}
+      </div>
+    </div>
+  </div>
+
+    <div class="form-group">
+      <p>Other info*</p>
+      {{ form.tags }}
+    </div>
+
+  <br>
+  <p>
+    *actors, genre, whatever you want to add about the movie, but I didn't give you a specific field to fill it in.
+  </p>
+
   <button type="submit" class="btn btn-outline-dark">Submit</button>
 </form>
 

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+Here will be the form for editing movies existing in database. We'll see how it goes...
+
+<form method="post">
+  {%csrf_token %}
+  Title: {{form.title}} <br><br>
+  Release year: {{form.release_year}} <br><br>
+  Director: {{form.director }}  <br><br>
+  Seen by: {{form.seen_by}} <br><br>
+  Date seen: {{form.date_seen}}  <br><br>
+  Other info: {{form.tags}}  <br><br>
+  <button type="submit" class="btn btn-outline-dark">Submit</button>
+</form>
+
+{% endblock %}

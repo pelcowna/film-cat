@@ -5,18 +5,26 @@
     In total: <b>{{movies_seen|length}}</b>
   </p>
 
-  <table id="movie_table">
+  <table id="movie_table" class="sortable">
     <tr>
-      <th>Title</th>
+      <th style="text-align:left !important;">Title</th>
       <th>Year released</th>
-      <th>Date seen</th>
+      <th>Director</th>
+      <th></th>
     </tr>
     {% for movie in movies_seen %}
+
     <tr>
-      <td>{{ movie.title }}</td>
+      <td style="text-align:left !important;">{{ movie.title }}</td>
       <td>{{ movie.release_year }}</td>
-      <td>{{ movie.date_seen }}</td>
+      {% if movie.director is None %}
+      <td>-</td>
+      {% else %}
+      <td>{{ movie.director }}</td>
+      {% endif %}
+
     {% endfor %}
     </tr>
   </table>
+
 {% endblock %}

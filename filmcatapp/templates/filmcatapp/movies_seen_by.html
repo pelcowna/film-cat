@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% ifequal person "both" %}
+  <p>Here are all of the movies that you saw together (obydwojgoro). Latest at the top.<br>
+    In total: <b>{{movies_seen|length}}</b>
+  </p>
+{% endifequal %}
+{% ifequal person "nobody" %}
+  <p>Here are all of the movies that none of you saw, but probably you want to dig into them.<br>
+    In total: <b>{{movies_seen|length}}</b>
+  </p>
+{% endifequal %}
+{% ifequal person "Julka" %}
+  <p>Here are all of the movies that Julka saw, but probably Piotrek would love to see them as well. Right? <br>
+    In total: <b>{{movies_seen|length}}</b>
+  </p>
+{% endifequal %}
+{% ifequal person "Piotrek" %}
+  <p>Here are all of the movies that Piotrek saw and definitely he should show them to Julka!<br>
+    In total: <b>{{movies_seen|length}}</b>
+  </p>
+{% endifequal %}
+
+  <table id="movie_table" class="sortable">
+  <tr>
+    <th style="text-align:left !important;">Title</th>
+    <th>Year released</th>
+    {% ifequal person "both" %}
+    <th> Seen date</th>
+    {% endifequal %}
+    <th>Director</th>
+    <th></th>
+  </tr>
+  {% for movie in movies_seen %}
+
+  <tr>
+    <td style="text-align:left !important;">{{ movie.title }}</td>
+    <td>{{ movie.release_year }}</td>
+    {% ifequal person "both" %}
+    <td> {{ movie.date_seen }}</td>
+    {% endifequal %}
+    {% if movie.director is None %}
+    <td>-</td>
+    {% else %}
+    <td>{{ movie.director }}</td>
+    {% endif %}
+
+  {% endfor %}
+  </tr>
+</table>
+
+
+{% endblock %}

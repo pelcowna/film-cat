@@ -10,8 +10,25 @@ body {
 
 #content {
     background-color: Snow;
+    height: 100%;
 }
 
 #movie_table {
-  width: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#add_table {
+    width: 100%;
+    padding: 5px;
+}
+
+#am_r_th{
+    text-align:right;
+    padding: 7px;
+}
+
+#am_l_th{
+    text-align:left;
+    padding: 7px;
 }

@@ -6,24 +6,32 @@
     In total: <b>{{movies|length}}</b>
   </p>
 
-  <table id="movie_table">
+  <table id="movie_table" class="sortable">
     <tr>
-      <th>Title</th>
-      <th>Year relased</th>
+      <th style="text-align:left !important;">Title</th>
+      <th>Year released</th>
+      <th>Director</th>
       <th>Date seen</th>
       <th>Who saw it?</th>
+      <th></th>
     </tr>
     {% for movie in movies %}
 
     <tr>
-      <td>{{ movie.title }}</td>
+      <td style="text-align:left !important;">{{ movie.title }}</td>
       <td>{{ movie.release_year }}</td>
+      {% if movie.director is None %}
+      <td>-</td>
+      {% else %}
+      <td>{{ movie.director }}</td>
+      {% endif %}
       {% if movie.date_seen is None %}
       <td>-</td>
       {% else %}
       <td>{{ movie.date_seen }}</td>
       {% endif %}
       <td>{{ movie.get_seen_by_display }}</td>
+      <td> <a href="/edit_movie/{{ movie.title }}"> <i class="fa fa-edit"></i> </a></td>
     {% endfor %}
     </tr>
   </table>

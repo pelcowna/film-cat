@@ -16,7 +16,6 @@ Including another URLconf
 from django.urls import path
 from . import views
 from django.contrib.auth.views import LoginView, LogoutView
-from django.conf.urls import include
 
 
 urlpatterns = [
@@ -25,13 +24,16 @@ urlpatterns = [
          LoginView.as_view(template_name='filmcatapp/login.html'), name='login'),
     path('logout/',
          LogoutView.as_view(template_name='filmcatapp/logout.html'), name='logout'),
-    # path('log/', include('django.contrib.auth.urls')),
     path('signup/', views.SignUp.as_view(), name='signup'),
     path('profile/', views.profile),
     path('add_movie/', views.add_movie),
+    path('edit_movie/<str:title>/', views.edit_movie),
+    path('find_movie/', views.find_movie),
+    # path('find_movie_results/', views.find_movie_results),
     path('all_movies/', views.all_movies),
-    path('movies_seen_all/', views.movies_seen_all),
-    path('movies_seen_nobody/', views.movies_seen_nobody),
-    path('movies_seen_julka/', views.movies_seen_julka),
-    path('movies_seen_piotrek/', views.movies_seen_piotrek),
+    # path('movies_seen_all/', views.movies_seen_all),
+    # path('movies_seen_nobody/', views.movies_seen_nobody),
+    # path('movies_seen_julka/', views.movies_seen_julka),
+    # path('movies_seen_piotrek/', views.movies_seen_piotrek),
+    path('movies_seen_by/<str:person>/', views.movies_seen_by),
 ]
