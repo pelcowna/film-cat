@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29ca68c3-33ea-45ba-919f-7b53625be717" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/edit_movie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/find_movie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/find_movie_results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/movie_info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/movies_seen_by.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/old/add_movie_old-styling.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Julka.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Julka.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmcatapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/filmcatapp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmcatapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/filmcatapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmcatapp/static/filmcatapp/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/filmcatapp/static/filmcatapp/favicon/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmcatapp/static/filmcatapp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/filmcatapp/static/filmcatapp/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmcatapp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/filmcatapp/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/add_movie.html" beforeDir="false" afterPath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/add_movie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/all_movies.html" beforeDir="false" afterPath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/all_movies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/baseoldbutnew.html" beforeDir="false" afterPath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/old/baseoldbutnew.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/movies_seen_all.html" beforeDir="false" afterPath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/old/movies_seen_all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/movies_seen_julka.html" beforeDir="false" afterPath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/old/movies_seen_julka.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/movies_seen_nobody.html" beforeDir="false" afterPath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/old/movies_seen_nobody.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/movies_seen_piotrek.html" beforeDir="false" afterPath="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/old/movies_seen_piotrek.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmcatapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/filmcatapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filmcat/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/filmcat/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/filmcatapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/filmcatapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/filmcatapp/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/filmcatapp/favicon/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/filmcatapp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/filmcatapp/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,14 +50,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filmcatapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+            <state relative-caret-position="63">
+              <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/filmcat/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="128" column="20" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
               <folding>
-                <element signature="e#0#64#0" expanded="true" />
+                <element signature="e#308#332#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filmcatapp/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="12" column="10" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -117,7 +112,6 @@
         <option value="$PROJECT_DIR$/filmcatapp/admin.py" />
         <option value="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/signup.html" />
         <option value="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/logout.html" />
-        <option value="$PROJECT_DIR$/filmcat/settings.py" />
         <option value="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/baseold.html" />
         <option value="$PROJECT_DIR$/filmcat/urls.py" />
         <option value="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/baseoldbutnew.html" />
@@ -141,9 +135,10 @@
         <option value="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/edit_movie.html" />
         <option value="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/movies_seen_nobody.html" />
         <option value="$PROJECT_DIR$/filmcatapp/templates/filmcatapp/movies_seen_by.html" />
-        <option value="$PROJECT_DIR$/filmcatapp/views.py" />
         <option value="$PROJECT_DIR$/filmcatapp/urls.py" />
         <option value="$PROJECT_DIR$/filmcatapp/templates/base.html" />
+        <option value="$PROJECT_DIR$/filmcatapp/views.py" />
+        <option value="$PROJECT_DIR$/filmcat/settings.py" />
       </list>
     </option>
   </component>
@@ -189,44 +184,7 @@
             <path>
               <item name="film-cat" type="b2602c69:ProjectViewProjectNode" />
               <item name="film-cat" type="462c0819:PsiDirectoryNode" />
-              <item name="filmcatapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="film-cat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="film-cat" type="462c0819:PsiDirectoryNode" />
-              <item name="filmcatapp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="film-cat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="film-cat" type="462c0819:PsiDirectoryNode" />
-              <item name="filmcatapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="filmcatapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="film-cat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="film-cat" type="462c0819:PsiDirectoryNode" />
-              <item name="filmcatapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="film-cat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="film-cat" type="462c0819:PsiDirectoryNode" />
-              <item name="filmcatapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="filmcatapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="film-cat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="film-cat" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="film-cat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="film-cat" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="film-cat" type="b2602c69:ProjectViewProjectNode" />
@@ -250,7 +208,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/STUDIA/MAGISTERKA/JĘZYKI PROGRAMOWANIA DO ZASTOSOWAŃ BIOMEDYCZNYCH/laborki" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -348,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611423012770</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding filmcat app">
+      <created>1615849153619</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615849153619</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -362,20 +327,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24295011" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24295011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296582" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30981258" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989154" weight="0.30981258" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3296582" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4989154" weight="0.32194045" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010846" side_tool="true" weight="0.3296582" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4989154" visible="true" weight="0.32194045" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010846" side_tool="true" weight="0.30981258" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3296582" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -438,13 +404,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/filmcatapp/static/filmcatapp/favicon/favicon.ico">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filmcat/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/filmcatapp/templates/filmcatapp/login.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -538,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filmcatapp/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="18" column="96" selection-start-line="18" selection-start-column="96" selection-end-line="18" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filmcatapp/templates/filmcatapp/old/movies_seen_piotrek.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -622,12 +574,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/filmcatapp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="12" column="10" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/filmcatapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        <state relative-caret-position="63">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filmcat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="128" column="20" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
           <folding>
-            <element signature="e#0#64#0" expanded="true" />
+            <element signature="e#308#332#0" expanded="true" />
           </folding>
         </state>
       </provider>

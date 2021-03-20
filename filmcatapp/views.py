@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from .models import Movie
 from django.views import generic
 from django.contrib.auth.forms import UserCreationForm
+# from django.contrib.admin import AdminDateWidget, AdminTimeWidget, AdminSplitDateTime
 from django.urls import reverse_lazy
 from .forms import MovieForm
 
