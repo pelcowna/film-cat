@@ -17,7 +17,6 @@ from django.urls import path
 from . import views
 from django.contrib.auth.views import LoginView, LogoutView
 
-
 urlpatterns = [
     path('', views.home),
     path('login/',
@@ -31,9 +30,5 @@ urlpatterns = [
     path('find_movie/', views.find_movie),
     # path('find_movie_results/', views.find_movie_results),
     path('all_movies/', views.all_movies),
-    # path('movies_seen_all/', views.movies_seen_all),
-    # path('movies_seen_nobody/', views.movies_seen_nobody),
-    # path('movies_seen_julka/', views.movies_seen_julka),
-    # path('movies_seen_piotrek/', views.movies_seen_piotrek),
     path('movies_seen_by/<str:person>/', views.movies_seen_by),
 ]
