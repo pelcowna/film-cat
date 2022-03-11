@@ -17,7 +17,7 @@ class MovieForm(forms.ModelForm):
         (JULKASEEN, 'Julka'),
         (PIOTREKSEEN, 'Piotrek')
     ]
-    YEAR_CHOICES = reversed([(x, x) for x in range(1930, 2022)])
+    YEAR_CHOICES = reversed([(x, x) for x in range(1930, 2023)])
     title = forms.CharField(label='title', required=True)
     seen_by = forms.ChoiceField(label='seen_by', required=True, choices=SEEN_CHOICES)
     release_year = forms.ChoiceField(choices=YEAR_CHOICES, label='release_year', required=False)
